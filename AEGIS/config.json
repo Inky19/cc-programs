@@ -1,0 +1,35 @@
+{
+    "uiMonitor": {
+        "name": "monitor_0",
+        "scale": 0.5
+    },
+    "logMonitor": {
+        "name": "monitor_1",
+        "scale": 0.5
+    },
+    "reactor": "fissionReactorLogicAdapter_3",
+    "alarmRelay": {
+        "name": "redstone_relay_0",
+        "side": "top"
+    },
+    "alerts": {
+        "fuel": 0.1,
+        "coolant": 0.3,
+        "heatedCoolant": 0.2,
+        "waste": 0.5,
+        "temperature": 1000,
+        "damage": 0
+    },
+    "limits": {
+        "fuel": 0.01,
+        "coolant": 0.1,
+        "heatedCoolant": 0.9,
+        "waste": 0.9,
+        "temperature": 1100,
+        "damage": 0
+    },
+    "logs": {
+        "fileDurationSeconds": 86400,
+        "maxFiles": 10
+    }
+}
